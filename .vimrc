@@ -26,3 +26,6 @@ set mouse=a
 set wildmenu
 set wildmode=list:longest,full
 
+" backspace flows to previous line
+set backspace=indent,eol,start
+

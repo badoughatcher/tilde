@@ -1,0 +1,24 @@
+# link this file to /etc/hosts
+
+127.0.0.1	localhost
+127.0.1.1	superterran
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+# work related stuff to make life easier
+
+127.0.0.1 attask.blueacorn.com 
+127.0.0.1 drive.blueacorn.com
+127.0.0.1 basecamp.blueacorn.com
+127.0.0.1 beanstalk.blueacorn.com
+
+# development stuff
+
+127.0.0.1	test.dev
+127.0.0.1       php.dev
+127.0.0.1 	legend.dev

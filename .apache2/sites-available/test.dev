@@ -1,0 +1,4 @@
+<VirtualHost *:80>
+	ServerName test.dev
+	DocumentRoot /var/www/test.dev
+</VirtualHost>
