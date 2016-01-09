@@ -1,4 +1,0 @@
-<VirtualHost *:80>
-	ServerName php.dev
-	DocumentRoot /var/www/php.dev
-</VirtualHost>
