@@ -1,8 +1,0 @@
-#!/usr/bin/bash
-for filename in ./*; do
-    newfile=$(echo $filename | sed 's/set-//g')
-    if [ "$newfile" != "$filename" ] 
-    then
-	ln -s $(pwd)/$filename ~/$newfile
-    fi
-done
